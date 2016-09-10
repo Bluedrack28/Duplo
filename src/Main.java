@@ -20,7 +20,7 @@ public class Main {
 		Loic l = new Loic();
 		while(or.restABloc){
 			
-			l.goToTheNextBloc();
+			l.goToTheNextBloc(colorBlock);
 			if(l.getColor()){
 				or.moveRight();
 			}else{
